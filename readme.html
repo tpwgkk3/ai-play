@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Title: ~50-60 chars, clear intent & branding -->
+  <title>AIPlay Site Overview | Independent Platform Documentation</title>
+
+  <!-- Meta Description: ~155 chars, unique & search-friendly -->
+  <meta name="description" content="Read the official AIPlay Guide portal documentation. Learn about our site objectives, editorial guidelines, affiliate disclosures, and platform analysis.">
+
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <meta name="author" content="AIPlay Guide">
+  <meta name="theme-color" content="#c30001">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://ai-play.org/readme.html">
+
+  <!-- Language targeting -->
+  <link rel="alternate" hreflang="en" href="https://ai-play.org/readme.html">
+  <link rel="alternate" hreflang="x-default" href="https://ai-play.org/readme.html">
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="manifest" href="/favicon/site.webmanifest">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_MY">
+  <meta property="og:site_name" content="AIPlay Guide">
+  <meta property="og:title" content="AIPlay Site Overview | Independent Platform Documentation">
+  <meta property="og:description" content="Discover the operational mission, editorial standards, and referral transparency of the independent AIPlay Guide information hub.">
+  <meta property="og:url" content="https://ai-play.org/readme.html">
+  <meta property="og:image" content="https://ai-play.org/bg.png">
+  <meta property="og:image:alt" content="Documentation and site overview for AIPlay Guide">
+
+  <!-- X / Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AIPlay Site Overview | Independent Platform Documentation">
+  <meta name="twitter:description" content="Explore the mission, editorial ethics, and affiliate disclosures of the independent AIPlay Guide website.">
+  <meta name="twitter:image" content="https://ai-play.org/bg.png">
+  <meta name="twitter:image:alt" content="Documentation and site overview for AIPlay Guide">
+
+  <!-- Structured Data (JSON-LD Schema) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "@id": "https://ai-play.org/readme.html#webpage",
+    "url": "https://ai-play.org/readme.html",
+    "name": "AIPlay Site Information",
+    "description": "Comprehensive site documentation covering the purpose, editorial standards, and affiliate policies of the independent AIPlay Guide portal.",
+    "inLanguage": "en",
+    "isPartOf": {
+      "@type": "WebSite",
+      "@id": "https://ai-play.org/#website",
+      "url": "https://ai-play.org/",
+      "name": "AIPlay Guide"
+    },
+    "about": {
+      "@type": "Organization",
+      "name": "AIPlay Guide",
+      "url": "https://ai-play.org/",
+      "description": "An independently operated informational portal offering reviews, guides, and updates regarding the AIPlay online gaming platform."
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "AIPlay Guide",
+      "url": "https://ai-play.org/"
+    }
+  }
+  </script>
+
+    <link rel="stylesheet" href="./files/all.min.css">
+    
+    <style>
+        /* Global Styles */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Arial', sans-serif; }
+        body { background-color: #f8f9fa; color: #333; line-height: 1.6; }
+        a { text-decoration: none; color: #e63946; }
+        
+        .container { width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 15px; }
+        
+        .btn { 
+            display: inline-block; 
+            padding: 12px 25px; 
+            background-color: #c30001; 
+            color: white; 
+            border-radius: 4px; 
+            font-weight: bold; 
+            transition: all 0.3s ease; 
+        }
+        .btn:hover { background-color: #810102; transform: translateY(-2px); }
+
+        /* Navigation */
+        .navbar {
+            background-color: #000;
+            color: white;
+            padding: 15px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .navbar .container { display: flex; justify-content: space-between; align-items: center; }
+        .logo img { height: 40px; width: auto; }
+        .nav-side { flex: 1; } /* Helper for centering logo */
+
+        /* Hero Section */
+        .hero {
+            min-height: 80vh;
+            background: #0f0000 url('./bg.png') center/cover no-repeat;
+            color: white;
+            display: flex;
+            align-items: center;
+            margin-top: 60px;
+            padding: 40px 0;
+        }
+        .hero .container { display: flex; align-items: center; gap: 40px; }
+        .hero-content, .hero-image { flex: 1; }
+        .hero-image img { max-width: 100%; border-radius: 8px; }
+        .hero h1 { font-size: 48px; margin-bottom: 20px; }
+        .hero p { font-size: 18px; margin-bottom: 30px; }
+
+        /* Games Grid */
+        .games-section { padding: 80px 0; background: #fff; }
+        .section-title { text-align: center; margin-bottom: 40px; }
+        .games-grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); 
+            gap: 20px; 
+            margin-bottom: 50px; 
+        }
+        .game-card { 
+            background: #fff; 
+            border-radius: 8px; 
+            overflow: hidden; 
+            transition: transform 0.3s; 
+            border: 1px solid #fff;
+        }
+        .game-card:hover { transform: translateY(-10px); }
+        .game-card img { width: 100%; display: block; }
+
+        .games-content { max-width: 800px; margin: 0 auto; }
+        .games-content h1 { font-size: 28px; margin-bottom: 20px; }
+        .games-content ul { padding-left: 20px; margin-bottom: 20px; }
+
+        /* Footer */
+        footer { background: #000; color: white; padding: 40px 0 20px; text-align: center; }
+        .footer-links { margin: 20px 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+        .footer-links a { color: #ccc; font-size: 14px; }
+        .footer-links a:hover { color: #c30001; }
+        .footer-bottom { border-top: 1px solid #222; padding-top: 20px; font-size: 13px; }
+
+        /* Mobile Adjustments */
+        @media (max-width: 768px) {
+            .hero .container { flex-direction: column; text-align: center; }
+            .hero-image { order: -1; }
+            .hero h1 { font-size: 32px; }
+            .games-grid { grid-template-columns: repeat(3, 1fr); }
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="container">
+        <div class="nav-side">
+            <a href="/"><img src="./files/homepage.png" alt="Home" style="height: 30px;"></a>
+        </div>
+        <div class="logo">
+            <img src="./files/logo.webp" alt="TPower Logo">
+        </div>
+        <div class="nav-side"></div> </div>
+</nav>
+
+<section class="hero">
+    <div class="container">
+        <div class="hero-image">
+            <img src="./files/banner_en.png" alt="TPower Banner">
+        </div>
+        <div class="hero-content">
+            <p>AIPlay is a premier online entertainment portal offering a comprehensive suite of casino-style games and interactive digital experiences for eligible adult players across supported Asian markets.</p>
+            <a href="/login" class="btn" target="_blank">Register AiPlay</a>
+        </div>
+    </div>
+</section>
+
+<section class="games-section">
+    <div class="container">
+        <div class="section-title">
+            <h2>AiPlay Hot Games 🔥</h2>
+        </div>
+        <div class="games-grid">
+            <div class="game-card"><img src="./files/aiplay_slot_pp.jpg" alt="aiplay_slot_pp"></div>
+            <div class="game-card"><img src="./files/aiplay_slot_uu.jpg" alt="aiplay_slot_uu"></div>
+            <div class="game-card"><img src="./files/aiplay_slot_vplus.jpg" alt="aiplay_slot_vplus"></div>
+            <div class="game-card"><img src="./files/aiplay_slot_918.jpg" alt="aiplay_slot_918"></div>
+            <div class="game-card"><img src="./files/aiplay_slot_pgs.jpg" alt="aiplay_slot_pgs"></div>
+            <div class="game-card"><img src="./files/aiplay_slot_lfc.jpg" alt="aiplay_slot_lfc"></div>
+            <div class="game-card"><img src="./files/aiplay_ibc.jpg" alt="aiplay_ibc"></div>
+            <div class="game-card"><img src="./files/aiplay_sbobet.jpg" alt="aiplay_sbobet"></div>
+            <div class="game-card"><img src="./files/aiplay_obet33.jpg" alt="aiplay_obet33"></div>
+            <div class="game-card"><img src="./files/aiplay_live_sexy.jpg" alt="aiplay_live_sexy"></div>
+            <div class="game-card"><img src="./files/aiplay_live_pt.jpg" alt="aiplay_live_pt"></div>
+            <div class="game-card"><img src="./files/aiplay_live_pp.jpg" alt="aiplay_live_pp"></div>
+            <div class="game-card"><img src="./files/aiplay_live_dg.jpg" alt="aiplay_live_dg"></div>
+            <div class="game-card"><img src="./files/aiplay_fish_ka.jpg" alt="aiplay fish ka"></div>
+            <div class="game-card"><img src="./files/aiplay_fish_jili.jpg" alt="aiplay fish jili"></div>
+        </div>
+      
+        <div class="games-content">
+<h1>AIPlay Site Information</h1>
+
+<p>
+  <b>AIPlay Guide</b> is an independently operated informational portal dedicated to reviewing and documenting the AIPlay online entertainment platform. We provide objective overviews of supported gaming genres, featured payment channels, account registration steps, mobile web performance, and customer care options.
+</p>
+
+<p>
+  This website operates independently of the official AIPlay brand. We do not host gaming applications, manage member profiles, receive deposits, or process withdrawal requests. Platform specifications and terms are updated frequently, so readers are encouraged to confirm current details directly on the official site prior to opening an account or transferring funds.
+</p>
+
+<h2>Our Mission</h2>
+
+<p>
+  Our objective is to make platform data regarding <b>AIPlay</b> accessible and straightforward. We strive to break down advertised user features while highlighting functional limitations, payment conditions, legal age guidelines, and the inherent financial risks of online gaming.
+</p>
+
+<h2>What We Cover</h2>
+
+<ul>
+  <li>
+    Comprehensive guides to AIPlay and its digital entertainment categories
+  </li>
+
+  <li>
+    Browser compatibility analysis, including device performance under <b>HTML5</b> architecture
+  </li>
+
+  <li>
+    Supported deposit channels, payout workflows, and identity verification requirements
+  </li>
+
+  <li>
+    Step-by-step account registration and customer service contact channels
+  </li>
+
+  <li>
+    Platform terms of service, data privacy rules, and responsible gaming best practices
+  </li>
+</ul>
+
+<h2>Editorial Standards & Transparency</h2>
+
+<p>
+  We maintain a commitment to transparent, balanced reporting without making guarantees regarding the operational uptime, security standards, processing speed, or long-term performance of AIPlay. Content is reviewed periodically, but game studios, promotional programs, payout rules, and system requirements remain subject to change without prior notice.
+</p>
+
+<p>
+  Visitors should evaluate official platform terms, bonus rollover conditions, withdrawal protocols, and local legal frameworks before engaging with external services.
+</p>
+
+<h2>Affiliate Relationship Disclosure</h2>
+
+<p>
+  Certain destination links throughout this site function as affiliate tracking links. We may receive referral compensation if a visitor follows these links and completes a qualifying action, at zero additional cost to the user. This commercial partnership does not designate this site as the official AIPlay portal.
+</p>
+
+<h2>Key AIPlay Platform Considerations</h2>
+
+<ul>
+  <li>
+    Online entertainment is strictly restricted to legal-age adults within permitted jurisdictions
+  </li>
+
+  <li>
+    Software availability and active banking gateways vary by geographical region
+  </li>
+
+  <li>
+    Full identity verification (KYC) may be mandatory prior to payout approval
+  </li>
+
+  <li>
+    Cashout processing speeds depend on payment processors, banking hours, and security checks
+  </li>
+
+  <li>
+    Participating in real-money games entails financial risk with no guaranteed returns
+  </li>
+</ul>
+
+<h2>Responsible Gaming Commitment</h2>
+
+<p>
+  Online gaming must always be treated strictly as paid leisure, never as a financial strategy or income source. Establish firm personal budgets, avoid chasing losses, and never play with capital required for essential living needs. If gaming ceases to be an enjoyable pastime, stop immediately and seek assistance from a specialized support organization.
+</p>
+
+<p>
+  Review the guides published on <b>AIPlay Guide</b> to learn more about platform specs, access requirements, and user safety guidelines before deciding to visit external gaming portals.
+</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="footer-links">
+            <a href="/about.html">About</a>
+            <a href="/contact.html">Contact</a>
+            <a href="/privacy.html">Privacy Policy</a>
+            <a href="/terms.html">Terms</a>
+            <a href="/faq.html">FaQ</a>
+            <a href="/readme.html">Site Info</a>
+            <a href="/how-to-register-aiplay.html">Register Guide</a>
+            <a href="/what-is-aiplay.html">What Is AiPlay</a>
+            <a href="/aiplay-game-providers.html">Game Providers</a>
+        </div>
+        <div class="footer-bottom">
+             <p>
+    © Copyright 2025–2026
+    <a href="https://www.tpower2.net">Tpower2</a> |
+    <a href="https://www.tpower3.net">TPower3</a>.
+    All Rights Reserved.
+  </p>
+        </div>
+    </div>
+</footer>
+
+<script>
+    // Optimized Scroll Effect
+    window.addEventListener('scroll', () => {
+        const navbar = document.querySelector('.navbar');
+        navbar.style.padding = window.scrollY > 50 ? '8px 0' : '15px 0';
+    });
+</script>
+
+</body>
+</html>
